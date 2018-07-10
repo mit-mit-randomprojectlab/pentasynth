@@ -59,4 +59,3 @@ char chord_progressions[] = {
   0,5,7,0,
   0,-2,7,5
 };
-
