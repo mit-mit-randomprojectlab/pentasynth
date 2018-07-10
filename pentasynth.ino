@@ -381,7 +381,7 @@ void loop()
   if ( (digitalRead(MODESWITCH_PIN) == 0) && (controlpinlast[3] == 0) ) {
     controlpinlast[3] = 1;
     mode_type++;
-    if (mode_type == 3) {
+    if (mode_type == 2) {
       mode_type = 0;
     }
   }
@@ -439,5 +439,4 @@ void loop()
   delay(accomp_delay);
 
 }
-
 
